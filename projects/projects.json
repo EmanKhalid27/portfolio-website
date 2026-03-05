@@ -1,64 +1,54 @@
 [
-  {
-    "name": "Banking System",
-    "desc": "The GUI Banking System is a desktop application built with Java  allowing users to create accounts, deposit, withdraw, and view balances — showcasing GUI design and backend logic integration.",
-    "image": "notystackandroid",
-    "category": "android",
-    "links": {
-      "view": "",
-      "code": "https://github.com/EmanKhalid27/Bank-management-system-PF"
-    }
-  },
-  {
-    "name": "Resume Builder",
-    "desc": "The Resume Builder Project is a web app built with HTML, CSS, and PHP that lets users create and download professional resumes through customizable, easy-to-use templates.",
-    "image": "sppuprepandroid",
-    "category": "android",
-    "links": {
-      "view": "",
-      "code": "https://github.com/EmanKhalid27/Resume-Builder-Project"
-    }
-  },
-  {
-    "name": "8 Puzzle Game",
-    "desc": "The 8 Puzzle Game is a Python AI project that solves the classic sliding puzzle using the A* algorithm and Manhattan heuristic, showcasing efficient problem-solving and algorithmic skills.",
-    "image": "newsboxandroid",
-    "category": "android",
-    "links": {
-      "view": "",
-      "code": "https://github.com/EmanKhalid27/Puzzle-Solver-AI"
-    }
-  },
-  {
-    "name": "Weatherly Android",
-    "desc": "Native android app built using Java, XML and Volley dependencies. Provides weather forecast.",
-    "image": "weatherlyandroid",
-    "category": "android",
-    "links": {
-      "view": "",
-      "code": ""
-    }
-  },
-  {
+   {
     "name": "Ecomerce Website",
     "desc": "Full-Stack Ecomerce Website using MERN stack and realtime chat with the help of socket.iO",
-    "image": "instagrammern",
+    "image": "ecom",
     "category": "mern",
     "links": {
-      "view": "",
+      "view": "https://github.com/EmanKhalid27/ProShop",
       "code": "https://github.com/EmanKhalid27/ProShop"
     }
   },
  
-
   {
     "name": "Portfolio Website",
     "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
     "image": "portfolio1",
     "category": "basicweb",
     "links": {
-      "view": "#",
+      "view": "https://github.com/EmanKhalid27/portfolio-website",
       "code": "https://github.com/EmanKhalid27/portfolio-website"
     }
+  },
+  {
+    "name": "Banking System",
+    "desc": "The GUI Banking System is a desktop application built with Java .",
+    "image": "digital banking",
+    "category": "Console",
+    "links": {
+      "view": "https://github.com/EmanKhalid27/Bank-management-system-PF",
+      "code": "https://github.com/EmanKhalid27/Bank-management-system-PF"
+    }
+  },
+  {
+    "name": "Resume Builder",
+    "desc": "The Resume Builder Project is a web app built with HTML, CSS, and PHP .",
+    "image": "resume project",
+    "category": "basicweb",
+    "links": {
+      "view": "https://github.com/EmanKhalid27/Resume-Builder-Project",
+      "code": "https://github.com/EmanKhalid27/Resume-Builder-Project"
+    }
+  },
+  {
+    "name": "8 Puzzle Game",
+    "desc": "The 8 Puzzle Game is a Python AI project that solves the classic sliding puzzle using the A* algorithm showcasing efficient problem-solving and algorithmic skills.",
+    "image": "Output puzzle",
+    "category": "android",
+    "links": {
+      "view": "https://github.com/EmanKhalid27/Puzzle-Solver-AI",
+      "code": "https://github.com/EmanKhalid27/Puzzle-Solver-AI"
+    }
   }
+
 ]
