@@ -89,10 +89,11 @@ cd portfolio-website
 ### 📬 Connect With Me
 
 | Platform | Direct Link |
-| --- | --- |
-| 💼 **LinkedIn** | [linkedin.com/in/-eman-khalid/](https://www.linkedin.com/in/-eman-khalid/) |
-| 💻 **GitHub** | [github.com/EmanKhalid27](https://github.com/EmanKhalid27) |
-| 📧 **Email** | [emankhalidek.01@gmail.com](mailto:emankhalidek.01@gmail.com) |
+| Platform  Direct Link |
+| 💼 **LinkedIn** (https://www.linkedin.com/in/-eman-khalid/) |
+| 💻 **GitHub** (https://github.com/EmanKhalid27) |
+| 📧 **Email**(mailto:emankhalidek.01@gmail.com) |
+
 
 ---
 
