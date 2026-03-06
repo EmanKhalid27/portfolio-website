@@ -367,15 +367,17 @@ header .navbar ul li a:hover {
   box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2)!important;
 }
 /* Container styling */
+/* Container styling */
 .code-window {
-  background-color: #0d111a; /* Dark navy background */
+  background-color: #000000; /* Changed to pure black! */
   border-radius: 8px;
   border: 1px solid #2d3748;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
   font-family: 'Fira Code', 'Courier New', Courier, monospace;
   color: #e2e8f0;
   width: 100%;
-  max-width: 500px; /* Adjust based on your layout */
+  max-width: 600px; /* Slightly wider so code fits better */
+  margin: 0 auto; /* This perfectly centers it */
   overflow: hidden;
 }
 
@@ -551,6 +553,10 @@ pre {
     margin: 0 auto;
     width: 90%;
     mix-blend-mode: normal;
+  }
+  .code-window {
+    width: 95%; /* Gives it a nice little gap on the sides of a phone screen */
+    margin: 0 auto;
   }
   .about .row {
     padding: 0.5rem;
