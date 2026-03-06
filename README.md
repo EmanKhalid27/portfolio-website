@@ -24,12 +24,12 @@ Designed with smooth animations, interactive UI elements, and a clean profession
 
 ### 🛠 Tech Stack
 
-| Technology | Logo | Usage |
-| --- | --- | --- |
-| **HTML5** |  | Core Structure |
-| **CSS3** |  | Styling & Layout |
-| **JavaScript** |  | Interactivity & Logic |
-| **jQuery** |  | DOM Manipulation |
+| Technology  | Usage |
+| --- | --- |
+| **HTML5** | Core Structure |
+| **CSS3**| Styling & Layout |
+| **JavaScript** | Interactivity & Logic |
+| **jQuery** | DOM Manipulation |
 
 ---
 
