@@ -108,19 +108,12 @@ OR use **Live Server** extension in VS Code.
 
 # 📬 Connect With Me
 
-<<<<<<< HEAD
  Platform  with Direct Link 
 
   [💼 **LinkedIn**](https://www.linkedin.com/in/-eman-khalid/)
   [ 💻 **GitHub**](https://github.com/EmanKhalid27)
   [📧 **Email**](mailto:emankhalidek.01@gmail.com) 
-=======
-[💼 **LinkedIn**](https://www.linkedin.com/in/-eman-khalid/)
 
-[💻 **GitHub**](https://github.com/EmanKhalid27)
-
-[📧 **Email**](mailto:emankhalidek.01@gmail.com)
->>>>>>> f35937b
 
 ---
 
