@@ -27,7 +27,7 @@ Designed with smooth animations, interactive UI elements, and a clean profession
 | Technology  Usage |
 | ---  --- |
 | **HTML5** Core Structure |
-| **CSS3**| Styling & Layout |
+| **CSS3** Styling & Layout |
 | **JavaScript** | Interactivity & Logic |
 | **jQuery** | DOM Manipulation |
 
@@ -44,7 +44,7 @@ Designed with smooth animations, interactive UI elements, and a clean profession
 
 ### 📸 Website Preview
 
-> [![Eman Khalid Portfolio](assets/images/projects/portfolio1.PNG)]
+> [Eman Khalid Portfolio](assets/images/projects/portfolio1.PNG)]
 
 ---
 
