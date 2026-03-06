@@ -24,9 +24,9 @@ Designed with smooth animations, interactive UI elements, and a clean profession
 
 ### 🛠 Tech Stack
 
-| Technology  | Usage |
-| --- | --- |
-| **HTML5** | Core Structure |
+| Technology  Usage |
+| ---  --- |
+| **HTML5** Core Structure |
 | **CSS3**| Styling & Layout |
 | **JavaScript** | Interactivity & Logic |
 | **jQuery** | DOM Manipulation |
