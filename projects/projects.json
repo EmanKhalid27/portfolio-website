@@ -23,7 +23,7 @@
   {
     "name": "Banking System",
     "desc": "The GUI Banking System is a desktop application built with Java .",
-    "image": "digital banking",
+    "image": "Digital-Banking",
     "category": "Console",
     "links": {
       "view": "https://github.com/EmanKhalid27/Bank-management-system-PF",
@@ -40,6 +40,7 @@
       "code": "https://github.com/EmanKhalid27/Resume-Builder-Project"
     }
   },
+  
   {
     "name": "8 Puzzle Game",
     "desc": "The 8 Puzzle Game is a Python AI project that solves the classic sliding puzzle using the A* algorithm showcasing efficient problem-solving and algorithmic skills.",
