@@ -5,111 +5,120 @@
 
 A modern, responsive **personal portfolio website** built to showcase my **projects, skills, and development journey**.
 
-Designed with smooth animations, interactive UI elements, and a clean professional layout.
+Designed with **smooth animations, interactive UI elements, and a clean professional layout** to create an engaging user experience.
 
-### 🌐 [Click Here to View Live Website](https://emankhalid.netlify.app)
+### 🌐 Live Website
 
----
-
-### ✨ Features
-
-* ✔ **Modern Responsive Design** – Pixel perfect on all screen sizes.
-* ✔ **Smooth Animations** – Powered by ScrollReveal and GSAP.
-* ✔ **Interactive UI** – Typing effects, hover tilts, and glassmorphism.
-* ✔ **Particle Background** – Dynamic background using Particle.js.
-* ✔ **Project Showcase** – Dynamic loading of projects from JSON.
-* ✔ **Contact Integration** – Functional form and social links.
+👉 **[View Portfolio](https://emankhalid.netlify.app)**
 
 ---
 
-### 🛠 Tech Stack
+# ✨ Features
 
-| Technology  Usage |
-| ---  --- |
-| **HTML5** Core Structure |
-| **CSS3** Styling & Layout |
-| **JavaScript** | Interactivity & Logic |
-| **jQuery** | DOM Manipulation |
-
----
-
-### ⚡ Libraries & Tools
-
-* 🎨 **Animations:** `Particle.js`, `Typed.js`, `Vanilla Tilt.js`, `ScrollReveal.js`
-* 🛠 **Icons & UI:** `Font Awesome`, `Google Fonts`
-* 📊 **Data:** `JSON` (for skills and project management)
-* 🚀 **Deployment:**
+✔ **Modern Responsive Design** – Works perfectly across all screen sizes
+✔ **Smooth Animations** – Powered by ScrollReveal and GSAP
+✔ **Interactive UI** – Typing effects, hover tilt effects, and glassmorphism design
+✔ **Particle Background** – Dynamic animated background using Particle.js
+✔ **Project Showcase** – Projects dynamically loaded from JSON
+✔ **Contact Integration** – Social links and functional contact section
 
 ---
 
-### 📸 Website Preview
+# 🛠 Tech Stack
 
-> [Eman Khalid Portfolio](assets/images/projects/portfolio1.PNG)]
+| Technology     | Usage                 |
+| -------------- | --------------------- |
+| **HTML5**      | Core structure        |
+| **CSS3**       | Styling & layout      |
+| **JavaScript** | Interactivity & logic |
+| **jQuery**     | DOM manipulation      |
 
 ---
 
-### 📂 Project Structure
+# ⚡ Libraries & Tools
 
-```text
+**Animations**
+
+* Particle.js
+* Typed.js
+* Vanilla Tilt.js
+* ScrollReveal.js
+
+**UI & Icons**
+
+* Font Awesome
+* Google Fonts
+
+**Data Handling**
+
+* JSON (skills & projects)
+
+**Deployment**
+
+* Netlify
+
+---
+
+# 📸 Website Preview
+
+![Portfolio Preview](assets/images/projects/portfolio1.PNG)
+
+---
+
+# 📂 Project Structure
+
+```
 Portfolio-Website
-├── index.html           # Main Entry Point
-├── skills.json          # Data for skills section
+│
+├── index.html           # Main entry point
+├── skills.json          # Skills data
+│
 ├── assets
 │   ├── css              # Stylesheets
-│   ├── js               # Custom Scripts & Libraries
-│   ├── images           # General UI Images
+│   ├── js               # Custom scripts & libraries
+│   ├── images           # UI images
 │   ├── experience       # Experience Folder
 │   └── projects         # Project Folder
-└── README.md            # Project Documentation
-
+│
+└── README.md            # Project documentation
 ```
 
 ---
 
-### 🚀 Installation & Setup
+# 🚀 Installation & Setup
 
-1. **Clone the repository**
+### 1️⃣ Clone the repository
+
 ```bash
 git clone https://github.com/EmanKhalid27/portfolio-website.git
-
 ```
 
+### 2️⃣ Navigate into the folder
 
-2. **Navigate into the folder**
 ```bash
 cd portfolio-website
-
 ```
 
+### 3️⃣ Run the project
 
-3. **Open in your browser**
-* Simply open `index.html` in your preferred browser or use the **Live Server** extension in VS Code.
-
-
-
----
-
-### 📬 Connect With Me
-
-<<<<<<< HEAD
- [💼 **LinkedIn**](https://www.linkedin.com/in/-eman-khalid/)
-  [ 💻 **GitHub**](https://github.com/EmanKhalid27)
-   [📧 **Email**](mailto:emankhalidek.01@gmail.com) |
-=======
- Platform  with Direct Link 
-
-  [💼 **LinkedIn**](https://www.linkedin.com/in/-eman-khalid/)
-  [ 💻 **GitHub**](https://github.com/EmanKhalid27)
-  [📧 **Email**](mailto:emankhalidek.01@gmail.com) 
->>>>>>> cc1be11 (docs: update README documentation)
+Open **index.html** in your browser
+OR use **Live Server** extension in VS Code.
 
 ---
 
-### ⭐ Support
+# 📬 Connect With Me
 
-If you like this project, please consider **starring ⭐ the repository** to show your support!
+[💼 **LinkedIn**](https://www.linkedin.com/in/-eman-khalid/)
 
-> **"Building innovative solutions with code and creativity."** > — *Designed and Developed by **Eman Khalid***
+[💻 **GitHub**](https://github.com/EmanKhalid27)
+
+[📧 **Email**](mailto:emankhalidek.01@gmail.com)
 
 ---
 
+# ⭐ Support
+
+If you like this project, consider **starring ⭐ the repository** to support my work.
+
+> **"Building innovative solutions with code and creativity."**
+> — *Designed & Developed by **Eman Khalid***
