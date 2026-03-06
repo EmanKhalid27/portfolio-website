@@ -1,5 +1,8 @@
 # 🚀 Eman Khalid – Portfolio Website
 
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?style=flat-square)
+![Demo](https://img.shields.io/badge/demo-online-green.svg?style=flat-square)
+
 A modern, responsive **personal portfolio website** built to showcase my **projects, skills, and development journey**.
 
 Designed with smooth animations, interactive UI elements, and a clean professional layout.
@@ -88,11 +91,11 @@ cd portfolio-website
 
 ### 📬 Connect With Me
 
-| Platform | Direct Link |
-| --- | --- |
-| 💼 **LinkedIn** | [linkedin.com/in/-eman-khalid/](https://www.linkedin.com/in/-eman-khalid/) |
-| 💻 **GitHub** | [github.com/EmanKhalid27](https://github.com/EmanKhalid27) |
-| 📧 **Email** | [emankhalidek.01@gmail.com](mailto:emankhalidek.01@gmail.com) |
+ Platform  with Direct Link 
+
+  [💼 **LinkedIn**](https://www.linkedin.com/in/-eman-khalid/)
+  [ 💻 **GitHub**](https://github.com/EmanKhalid27)
+  [📧 **Email**](mailto:emankhalidek.01@gmail.com) 
 
 ---
 
