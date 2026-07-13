@@ -1221,6 +1221,46 @@ form .button-area {
     margin-right: 2rem;
   }
 }
+/* Contact form status messages */
+/* Contact form status messages - Enhanced */
+#form-status {
+    margin-top: 1rem;
+    padding: 0.8rem 1.2rem;
+    border-radius: 10px;
+    font-weight: 500;
+    display: none;
+    transition: 0.3s ease;
+    text-align: center;
+}
+
+#form-status.success {
+    display: block;
+    background: rgba(37, 6, 173, 0.1);
+    border: 2px solid #2506ad;
+    color: #2506ad;
+}
+
+#form-status.error {
+    display: block;
+    background: rgba(240, 84, 84, 0.1);
+    border: 2px solid #f05454;
+    color: #f05454;
+}
+
+#form-status {
+    animation: slideUp 0.5s ease;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 /* contact section media queries ends */
 /* contact section ends */
 

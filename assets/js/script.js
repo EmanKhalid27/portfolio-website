@@ -38,20 +38,27 @@ $(document).ready(function () {
     });
 
     // <!-- emailjs to mail contact form data -->
-    $("#contact-form").submit(function (event) {
-        emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
+// EmailJS Contact Form
+$("#contact-form").submit(function (event) {
+    event.preventDefault();
 
-        emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
-            .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
-                document.getElementById("contact-form").reset();
-                alert("Form Submitted Successfully");
-            }, function (error) {
-                console.log('FAILED...', error);
-                alert("Form Submission Failed! Try Again");
-            });
-        event.preventDefault();
+    // Initialize EmailJS with YOUR Public Key
+    emailjs.init("j2I2SL6fb1ZnkQwyQ");
+
+    emailjs.sendForm(
+        "service_4ydn2r6",
+        "template_qxk7rym",
+        "#contact-form"
+    )
+    .then(function (response) {
+        console.log("SUCCESS!", response.status, response.text);
+        document.getElementById("contact-form").reset();
+        alert("Form Submitted Successfully!");
+    }, function (error) {
+        console.log("FAILED!", error);
+        alert("Form Submission Failed! Try Again");
     });
+});
     // <!-- emailjs to mail contact form data -->
 
 });
@@ -71,11 +78,11 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["frontend development", "backend development", "web designing", "android development", "web development"],
+    strings: ["Front-End Developer", "UI/UX Designer", "Computer Science Student", "Web development"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
-    backDelay: 500,
+    backDelay: 1000,
 });
 // <!-- typed js effect ends -->
 
