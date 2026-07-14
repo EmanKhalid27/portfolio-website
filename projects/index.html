@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Eman Khalid, projects, portfolio, full stack, MERN, developer" />
+    <meta name="description" content="View all projects by Eman Khalid - Full-Stack Developer. Includes MERN stack, web apps, and AI/ML projects." />
     <link rel="stylesheet" href="./style.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link id='favicon' rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-png">
-    <title>Projects | Portfolio Eman Khalid</title>
+    <title>Projects | Eman Khalid</title>
 </head>
 <body oncontextmenu="return false">
 
 <!-- navbar starts -->
 <header>
-        <a href="/" class="logo"><i class="fab fa-node-js"></i> Eman</a>
+    <a href="/" class="logo"><i class="fas fa-laptop-code"></i> Eman</a>
 
-        <div id="menu" class="fas fa-bars"></div>
-        <nav class="navbar">
-            <ul>
+    <div id="menu" class="fas fa-bars"></div>
+    <nav class="navbar">
+        <ul>
             <li><a href="/#home">Home</a></li>
             <li><a href="/#about">About</a></li>
             <li><a href="/#skills">Skills</a></li>
@@ -26,48 +28,39 @@
             <li><a class="active" href="/#work">Work</a></li>
             <li><a href="/#experience">Experience</a></li>
             <li><a href="/#contact">Contact</a></li>
-            </ul>
-        </nav>
+        </ul>
+    </nav>
 </header>
 <!-- navbar ends -->
 
 <!-- work project section starts -->
 <section class="work" id="work">
 
-  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
-  
-  <div id="filters" class="button-group">
-    <button class="btn is-checked" data-filter="*">All Projects</button>
-    <button class="btn" data-filter=".mern">MERN Stack</button>
-    <button class="btn" data-filter=".lamp">Front End</button>
-    <button class="btn" data-filter=".basicweb">Basic Web</button>
-    <button class="btn" data-filter=".android">Android App</button>
-  </div>
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+    
+    <div class="project-stats">
+        <span class="stat"><i class="fas fa-code"></i> 8+ Projects</span>
+        <span class="stat"><i class="fas fa-users"></i> 5+ Technologies</span>
+    </div>
 
-  <div class="box-container">
+    <div id="filters" class="button-group">
+        <button class="btn is-checked" data-filter="*">All Projects</button>
+        <button class="btn" data-filter=".mern">MERN Stack</button>
+        <button class="btn" data-filter=".ai,.ml">AI & ML</button>
+        <button class="btn" data-filter=".desktop">Desktop</button>
+        <button class="btn" data-filter=".basicweb">Web Apps</button>
+    </div>
 
-    <!-- <div class="box tilt">
-      <img src="/assets/images/projects/agecalc.PNG" alt="" />
-      <div class="content">
-        <div class="tag">
-        <h3>Portfolio Website</h3>
-        </div>
-        <div class="desc">
-          <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
-          <div class="btns">
-            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>    -->
+    <div class="box-container">
+        <!-- Projects will be loaded dynamically from projects.json -->
+    </div>
 
-  <div class="backbtn">
-    <a href="/#work" class="btn">
-        <i class="fas fa-arrow-left"></i>
-        <span>Back to Home</span>
-  </a>
-  </div>
+    <div class="backbtn">
+        <a href="/#work" class="btn">
+            <i class="fas fa-arrow-left"></i>
+            <span>Back to Home</span>
+        </a>
+    </div>
 
 </section>
 <!-- work project section ends -->
@@ -76,22 +69,24 @@
 <a href="#work" class="fas fa-angle-up" id="scroll-top"></a>
 <!-- scroll back to top -->
 
-
-<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+<!-- ============================================= -->
+<!-- ALL MAJOR JAVASCRIPT CDNS -->
+<!-- ============================================= -->
 <!-- jquery cdn -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<!-- vanilla tilt.js links -->
+<!-- vanilla tilt.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<!-- scroll reveal anim -->
+<!-- scroll reveal -->
 <script src="https://unpkg.com/scrollreveal"></script>
 
-<!-- isotope filter plugin cdn -->
+<!-- isotope filter plugin -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
-
+<!-- ============================================= -->
+<!-- SCRIPT -->
+<!-- ============================================= -->
 <script src="./script.js"></script>
 
 </body>

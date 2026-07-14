@@ -1,55 +1,73 @@
 [
-   {
-    "name": "Ecomerce Website",
-    "desc": "Full-Stack Ecomerce Website using MERN stack and realtime chat with the help of socket.iO",
-    "image": "ecom",
-    "category": "mern",
-    "links": {
-      "view": "https://github.com/EmanKhalid27/ProShop",
-      "code": "https://github.com/EmanKhalid27/ProShop"
+    {
+        "name": "E-Commerce Website",
+        "desc": "Full-stack e-commerce platform with product management, shopping cart, user authentication, and admin dashboard for inventory management.",
+        "image": "ecom",
+        "category": "mern",
+        "links": {
+            "view": "https://github.com/EmanKhalid27/ProShop",
+            "code": "https://github.com/EmanKhalid27/ProShop"
+        }
+    },
+   
+    {
+        "name": "DoS Attack Detection System",
+        "desc": "Machine learning system to classify network traffic as normal or DoS/DDoS attacks using Random Forest and Logistic Regression models.",
+        "image": "dos",
+        "category": "ml",
+        "links": {
+            "view": "https://github.com/EmanKhalid27/Dos-attack-detection-ml",
+            "code": "https://github.com/EmanKhalid27/Dos-attack-detection-ml"
+        }
+    },
+    {
+        "name": "Portfolio Website",
+        "desc": "Personal portfolio website built with HTML, CSS, and JavaScript featuring responsive design and interactive elements.",
+        "image": "portfolio1",
+        "category": "basicweb",
+        "links": {
+            "view": "https://github.com/EmanKhalid27/portfolio-website",
+            "code": "https://github.com/EmanKhalid27/portfolio-website"
+        }
+    },
+    {
+        "name": "Resume Builder",
+        "desc": "Web application allowing users to generate and manage professional resumes with real-time preview and database storage.",
+        "image": "resume project",
+        "category": "basicweb",
+        "links": {
+            "view": "https://github.com/EmanKhalid27/Resume-Builder-Project",
+            "code": "https://github.com/EmanKhalid27/Resume-Builder-Project"
+        }
+    },
+    {
+        "name": "Banking Management System",
+        "desc": "GUI desktop application built with Java for automating banking operations, customer management, and transaction processing.",
+        "image": "Digital-Banking",
+        "category": "desktop",
+        "links": {
+            "view": "https://github.com/EmanKhalid27/Bank-management-system-PF",
+            "code": "https://github.com/EmanKhalid27/Bank-management-system-PF"
+        }
+    },
+    {
+        "name": "Electricity Bill Management System",
+        "desc": "Desktop application to automate electricity bill calculation and customer record management with database integration.",
+        "image": "bill",
+        "category": "desktop",
+        "links": {
+            "view": "https://github.com/EmanKhalid27/Electricity-BMS-oops",
+            "code": "https://github.com/EmanKhalid27/Electricity-BMS-oops"
+        }
+    },
+    {
+        "name": "8 Puzzle Game",
+        "desc": "Python AI project solving the classic sliding puzzle using the A* algorithm, demonstrating efficient problem-solving and algorithmic skills.",
+        "image": "Output puzzle",
+        "category": "ai",
+        "links": {
+            "view": "https://github.com/EmanKhalid27/Puzzle-Solver-AI",
+            "code": "https://github.com/EmanKhalid27/Puzzle-Solver-AI"
+        }
     }
-  },
- 
-  {
-    "name": "Portfolio Website",
-    "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
-    "image": "portfolio1",
-    "category": "basicweb",
-    "links": {
-      "view": "https://github.com/EmanKhalid27/portfolio-website",
-      "code": "https://github.com/EmanKhalid27/portfolio-website"
-    }
-  },
-  {
-    "name": "Banking System",
-    "desc": "The GUI Banking System is a desktop application built with Java .",
-    "image": "Digital-Banking",
-    "category": "Console",
-    "links": {
-      "view": "https://github.com/EmanKhalid27/Bank-management-system-PF",
-      "code": "https://github.com/EmanKhalid27/Bank-management-system-PF"
-    }
-  },
-  {
-    "name": "Resume Builder",
-    "desc": "The Resume Builder Project is a web app built with HTML, CSS, and PHP .",
-    "image": "resume project",
-    "category": "basicweb",
-    "links": {
-      "view": "https://github.com/EmanKhalid27/Resume-Builder-Project",
-      "code": "https://github.com/EmanKhalid27/Resume-Builder-Project"
-    }
-  },
-  
-  {
-    "name": "8 Puzzle Game",
-    "desc": "The 8 Puzzle Game is a Python AI project that solves the classic sliding puzzle using the A* algorithm showcasing efficient problem-solving and algorithmic skills.",
-    "image": "Output puzzle",
-    "category": "android",
-    "links": {
-      "view": "https://github.com/EmanKhalid27/Puzzle-Solver-AI",
-      "code": "https://github.com/EmanKhalid27/Puzzle-Solver-AI"
-    }
-  }
-
 ]
