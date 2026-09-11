@@ -36,6 +36,64 @@ $(document).ready(function () {
             scrollTop: $($(this).attr('href')).offset().top,
         }, 500, 'linear')
     });
+/* ==================================================================
+   CERTIFICATES & BADGES — lightbox + fallbacks
+   ================================================================== */
+(function () {
+  const lb = document.getElementById("certLightbox");
+  if (!lb) return;
+
+  const inner    = document.getElementById("certLightboxInner");
+  const closeBtn = document.getElementById("certLightboxClose");
+
+  const open = (html) => {
+    inner.innerHTML = html;
+    lb.classList.add("open");
+    document.body.style.overflow = "hidden";
+  };
+  const close = () => {
+    lb.classList.remove("open");
+    inner.innerHTML = "";
+    document.body.style.overflow = "";
+  };
+
+  // certificate → PDF if available, otherwise the image
+  document.querySelectorAll(".cert-thumb").forEach((thumb) => {
+    thumb.addEventListener("click", () => {
+      const pdf = thumb.dataset.pdf;
+      const img = thumb.querySelector("img");
+      if (pdf) open(`<iframe src="${pdf}#view=FitH&toolbar=1" title="Certificate"></iframe>`);
+      else if (img) open(`<img src="${img.src}" alt="${img.alt}">`);
+    });
+  });
+
+  // badge → image
+  document.querySelectorAll(".badge-img-wrap img").forEach((img) => {
+    img.addEventListener("click", () => open(`<img src="${img.src}" alt="${img.alt}">`));
+  });
+
+  closeBtn.addEventListener("click", close);
+  lb.addEventListener("click", (e) => { if (e.target === lb || e.target === inner) close(); });
+  document.addEventListener("keydown", (e) => e.key === "Escape" && close());
+})();
+
+/* broken-image detector */
+document.querySelectorAll(".cert-thumb img, .badge-img-wrap img").forEach((img) => {
+  img.addEventListener("error", function () {
+    console.error("❌ BROKEN IMAGE PATH:", this.getAttribute("src"));
+    this.style.display = "none";
+    this.parentElement.insertAdjacentHTML(
+      "beforeend",
+      '<i class="fas fa-certificate" style="font-size:5rem;color:#ffd700;opacity:.4"></i>'
+    );
+  });
+});
+
+/* scroll reveal */
+if (window.ScrollReveal) {
+  ScrollReveal().reveal(".cert-card",  { distance: "40px", origin: "bottom", duration: 700, interval: 100, opacity: 0 });
+  ScrollReveal().reveal(".badge-card", { distance: "40px", origin: "bottom", duration: 700, interval: 80,  opacity: 0 });
+}
 
     // <!-- emailjs to mail contact form data -->
 // EmailJS Contact Form
