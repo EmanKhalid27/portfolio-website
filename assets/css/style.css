@@ -558,6 +558,16 @@ pre {
     width: 95%; /* Gives it a nice little gap on the sides of a phone screen */
     margin: 0 auto;
   }
+  .code-container {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .code-content {
+    font-size: 1.2rem; /* Smaller text so it fits better */
+    padding: 15px;
+  }
   .about .row {
     padding: 0.5rem;
     margin-bottom: 7rem;
